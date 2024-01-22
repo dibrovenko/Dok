@@ -1,0 +1,5 @@
+selenium~=4.16.0
+fastapi~=0.109.0
+chromedriver-binary
+uvicorn
+gunicorn
