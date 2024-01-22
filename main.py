@@ -10,7 +10,7 @@ def read_root():
     test_fullpage_screenshot("https://tproger.ru", "tproger.png")
     #test_fullpage_screenshot("https://stackoverflow.com", "stackoverflow.png")
 
-    return {"Hello": "World"}
+    return {"Hello nvhv": "World"}
 
 
 @app.get("/items/{item_id}")
