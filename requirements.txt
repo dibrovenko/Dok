@@ -3,3 +3,4 @@ fastapi~=0.109.0
 chromedriver-binary
 uvicorn
 gunicorn
+webdriver_manager

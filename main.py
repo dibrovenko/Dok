@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    #test_fullpage_screenshot("https://tproger.ru", "tproger.png")
+    test_fullpage_screenshot("https://tproger.ru", "tproger.png")
     #test_fullpage_screenshot("https://stackoverflow.com", "stackoverflow.png")
 
     return {"Hello nvhv": "World"}
@@ -16,7 +16,6 @@ def read_root():
 @app.get("/items/{item_id}")
 def read_item(item_id: int, q: str = None):
     return {"item_id": item_id, "q": q}
-
 
 
 
